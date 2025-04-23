@@ -5,3 +5,6 @@ https://studentgmh-my.sharepoint.com/:b:/g/personal/eduard_wojnar_student_gmh_cz
 
 Presentation:
 https://www.figma.com/deck/0psALnfnWA5FRxrqo2oyPp/Research-Readout?node-id=1-354&t=L0WyYwBIYwgAmi6L-1
+
+Video Demo:
+https://youtube.com/shorts/p2OaFgvN0Kk?si=TVFuA24lEju1yuwX
