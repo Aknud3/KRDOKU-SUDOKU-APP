@@ -8,3 +8,6 @@ https://www.figma.com/deck/0psALnfnWA5FRxrqo2oyPp/Research-Readout?node-id=1-354
 
 Video Demo:
 https://youtube.com/shorts/p2OaFgvN0Kk?si=TVFuA24lEju1yuwX
+
+Disclaimer:
+If you want to use this setup you must unzip the SDK files. But building your own app is not necessary
