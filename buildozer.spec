@@ -32,7 +32,7 @@ orientation = portrait
 # Orientace aplikace 
 
 # Make the app fullscreen
-fullscreen = 1
+fullscreen = 0s
  # Bool na to jestli se má aplikace fullscreenovat
 
 # Permissions (add more if needed)
