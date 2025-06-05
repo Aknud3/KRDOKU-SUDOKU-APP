@@ -749,7 +749,6 @@ class GameScreen(Screen):
         # Vyplníme vybranou buňku správným číslem a uzamkneme ji
         self.picked_column.data = correct_digit
         self.picked_column.display_number(correct_digit)
-        self.picked_column.locked = True
 
     def check_solution(self, instance):
         """Handle 'Check' button press"""
@@ -1234,10 +1233,12 @@ class SolverScreen(Screen):
             except Exception as e:
                 print(f"Chyba při zpracování Sudoku: {e}")
                 Clock.schedule_once(lambda dt: self._set_screen("sudoku_not_loaded"), 0)
+                sudoku = None
                 return
 
             if sudoku == [[9] * 9 for _ in range(9)] or sudoku is None:
                 Clock.schedule_once(lambda dt: self._set_screen("sudoku_not_loaded"), 0)
+                sudoku = None
             else:
                 Clock.schedule_once(lambda dt: self._update_and_switch(sudoku), 0)
 
@@ -1254,6 +1255,7 @@ class SolverScreen(Screen):
     def _update_and_switch(self, sudoku):
         editing_screen = self.manager.get_screen("editing_screen")
         editing_screen.update_sudoku(sudoku)
+        sudoku = None
         self.manager.current = "editing_screen"
 
 
