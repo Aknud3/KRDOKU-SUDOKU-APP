@@ -32,11 +32,11 @@ orientation = portrait
 # Orientace aplikace 
 
 # Make the app fullscreen
-fullscreen = 0s
+fullscreen = 0
  # Bool na to jestli se má aplikace fullscreenovat
 
 # Permissions (add more if needed)
-android.permissions = CAMERA, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
+android.permissions = CAMERA, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, WAKE_LOCK, SYSTEM_ALERT_WINDOW
 # Jaké všechny oprávnění aplikace k systému má
 
 # App icon and splash screen
@@ -55,6 +55,8 @@ android.ndk_api = 26
  # Verze androidu pro které je podpora
 android.minapi = 26
 android.api = 31
+
+android.accept_sdk_license = True
 
 
 

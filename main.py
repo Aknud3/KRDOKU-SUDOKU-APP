@@ -1872,11 +1872,20 @@ class MainMenuApp(App):
         Window.bind(on_resize=editing_screen.correct_font_size)
         if platform == "android":
             activity.bind(on_activity_result=self.solver_screen_intent_callback)
+        Clock.schedule_once(self.force_focus, 0)
         return sm
 
     def solver_screen_intent_callback(self, request_code, result_code, intent):
         solver_screen = self.root.get_screen("solver")
         solver_screen.intent_callback(request_code, result_code, intent)
+    
+    def force_focus(self, dt):
+        if platform == "android":
+            from android import activity
+            activity.bind(on_resume=self.on_resume)
+
+    def on_resume(self):
+        pass
 
 
 if __name__ == "__main__":
