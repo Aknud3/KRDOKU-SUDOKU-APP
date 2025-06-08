@@ -12,4 +12,4 @@ https://youtube.com/shorts/p2OaFgvN0Kk?si=TVFuA24lEju1yuwX
 Disclaimer:
 If you want to use this setup you must unzip the SDK files. But building your own app is not necessary
 
-https://studentgmh-my.sharepoint.com/:u:/g/personal/eduard_wojnar_student_gmh_cz/Ef2vD2dIlH5NgkXEkajsrIEBXdgre-CG-OSRlY0QfIdyEg?e=h8959B
+https://studentgmh-my.sharepoint.com/:u:/g/personal/eduard_wojnar_student_gmh_cz/EYL4L7Q4Ob1HtYWpu3Eu7DgBaNCQ-ur_P_KYWlvGNolnLA?e=sAnXPe
